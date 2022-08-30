@@ -213,3 +213,6 @@ a:hover {
 .contact-list li {
 	padding-bottom: 16px;
 }
+.contact-list li:last-child{
+	padding-bottom: 0;
+}
