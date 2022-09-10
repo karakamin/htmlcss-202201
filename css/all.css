@@ -75,10 +75,18 @@ a:hover {
 	color:#a6caac;
 }
 .h1{
-    font-size:80px;
+  font-family: "SF Pro Text";
+	font-size:80px;
+	line-height: 1.18;
+	padding-bottom: 24px;
 }
 .h2{
 	font-size: 32px;
+	padding-bottom: 8px;
+}
+.h2>span {
+	display: inline-block;
+	vertical-align: text-top;
 }
 .h3{
 	font-weight: 500;
@@ -197,4 +205,11 @@ a:hover {
 }
 .contact-list li:last-child{
 	padding-bottom: 0;
+}
+a>img {
+	opacity: 0.5;
+	/* padding: 10px; */
+}
+a>img:hover {
+	opacity: 1;
 }
